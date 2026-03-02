@@ -66,8 +66,9 @@ img {
 
 section {
   padding: 60px 40px;
-  border-bottom: 3px solid rgba(245, 245, 245, 1);
-  background-color: rgba(245, 245, 245, 1);
+  border-bottom: 1px solid #ccc; 
+  background: transparent;      
+  box-shadow: none;
 }
 
 section > *:first-child {
