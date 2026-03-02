@@ -43,3 +43,12 @@ section {
   width: 100%;
   padding: 100px 40px;
 }
+
+section:first-of-type {
+  margin-top: 80px;
+}
+
+h2, p {
+  max-width: 900px;
+  margin: 0 auto 15px;
+}
