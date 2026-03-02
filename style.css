@@ -66,11 +66,14 @@ img {
   height: auto;
 }
 
-section { 
-  padding: 60px 40px;
-  border-bottom: 3px solid rgba(245, 245, 245, 1);
-  margin: 40px auto;
-} 
+section {
+  width: 100%;                     
+  padding: 60px 0;               
+  border-bottom: 3px solid #ddd;   
+  background: white;            
+  box-sizing: border-box;
+  margin: 0;                     
+}
 
 section > *:first-child { 
   margin-top: 0; 
