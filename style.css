@@ -20,10 +20,14 @@ nav {
   display: flex;  
   align-items: center;
 }
+
 nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 nav li {
