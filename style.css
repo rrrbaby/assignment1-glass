@@ -73,6 +73,5 @@ section {
 footer {
   background: rgba(0, 94, 174, 1);
   color: white;
-  justify-content: center;
+  text-align: center;
   padding: 20px;
-  margin-top: 40px
