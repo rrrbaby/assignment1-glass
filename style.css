@@ -34,7 +34,12 @@ nav a {
 }
 
 nav a:hover {
-  background: #ffcc00;
+  background: white;
   color: black;
   border-radius: 5px;
+}
+
+section {
+  width: 100%;
+  padding: 100px 40px;
 }
