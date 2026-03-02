@@ -68,7 +68,9 @@ img {
 section {
   padding: 60px 40px;
   text-align: center;
-  border: rgba(245, 245, 245, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(245, 245, 245, 1);
 }
 
 footer {
