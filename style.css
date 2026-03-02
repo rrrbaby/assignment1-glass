@@ -66,9 +66,9 @@ img {
 }
 
 section { 
-  padding: 60px 40px; 
-  background: white;
-  border-bottom: 3px solid rgba(245, 245, 245, 1); 
+  padding: 60px 40px;
+  border: 3px solid rgba(245, 245, 245, 1);
+  margin: 40px auto;
 } 
 
 section > *:first-child { 
