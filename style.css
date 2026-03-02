@@ -54,8 +54,7 @@ nav a:hover {
 }
 
 h1, h2, p {
-  max-width: 900px;
-  margin: 0 auto 15px;
+  margin-bottom: 15px
 }
 
 img {
@@ -68,6 +67,8 @@ img {
 section {
   padding: 60px 40px;
   border: 3px solid rgba(245, 245, 245, 1);
+  max-width: 900px;
+  margin: 40px auto;
 }
 
 section > *:first-child {
