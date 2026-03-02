@@ -66,9 +66,8 @@ img {
 
 section {
   padding: 60px 40px;
-  border: 3px solid rgba(245, 245, 245, 1);
-  max-width: 900px;
-  margin: 40px auto;
+  border-top: 3px solid rgba(245, 245, 245, 1);
+  border-down: 3px solid rgba(245, 245, 245, 1);
 }
 
 section > *:first-child {
