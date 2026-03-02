@@ -64,13 +64,13 @@ img {
   height: auto;
 }
 
-section {
-  padding: 60px 40px;
-  border-bottom: 1px solid #ccc; 
-}
+section { 
+  padding: 60px 40px; 
+  border-bottom: 3px solid rgba(245, 245, 245, 1); 
+} 
 
-section > *:first-child {
-  margin-top: 0;
+section > *:first-child { 
+  margin-top: 0; 
 }
 
 footer {
