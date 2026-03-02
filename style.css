@@ -71,6 +71,10 @@ section {
   border: 3px solid rgba(245, 245, 245, 1);
 }
 
+section:first-of-type {
+  margin-top: 60px;
+}
+
 footer {
   background: rgba(0, 94, 174, 1);
   color: white;
