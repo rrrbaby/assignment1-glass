@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
 const photo = document.getElementById("photo");
 const caption = document.getElementById("caption");
 const photos = ["family1.jpeg", "family2.jpeg", "family3.jpeg"];
-const captions = ["My family and I at my last high school track meet.", "My St. Bernard, Layla, and I.", "My best friend and I "\fighting\" over a card game."];
+const captions = ["My family and I at my last high school track meet.", "My St. Bernard, Layla, and I.", 'My best friend and I "fighting" over a card game.'];
 let i = 0;
 
 function change(direction) {
