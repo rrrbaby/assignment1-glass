@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 const photo = document.getElementById("photo");
 const caption = document.getElementById("caption");
-const photos = ["family1.JPEG", "family2.JPEG", "family3.JPEG"];
+const photos = ["family1.jpeg", "family2.jpeg", "family3.jpeg"];
 const captions = ["My family and I at my last high school track meet.", "Me and my St. Bernard, Layla.", "Me and my best friend \"fighting\" over a card game."];
 let i = 0;
 
