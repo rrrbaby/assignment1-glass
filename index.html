@@ -4,24 +4,25 @@
         <title>Brady Glass</title>
         <meta name = description content = "Brady Glass Portfolio">
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
 
     <body>
-        <header>
-            <h1>Portfolio: Brady Glass</h1>
-            <h2>Computer Science: Application Development, 2024.</h2>
-        </header>
-        
+        <section class="intro">
+            <header>
+                <h1>Portfolio: Brady Glass</h1>
+                <h2>Computer Science: Application Development, 2024.</h2>
+            </header>
+        </section>
         <nav>
             <ul>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-
         <section>
             <h3>About Me</h3>
-            <img src="brady.JPG" alt="Brady Glass">
+            <img src="brady.JPG" alt="Brady Glass" class="headshot">
             <p>
                 My name is Brady Glass, and I am a student at Mount St. Joseph University studying Computer Science.
                 <br>I've clicked with technology since I was a kid, and it's been a large part of my life ever since.
@@ -31,7 +32,15 @@
         </section>
 
         <section>
-            this will be a section for images with loved ones and hobbies
+            <h3>Gallery</h3>
+            <img id="photo" class="photo" src="family1.JPEG" alt="Brady Glass Family">
+            <br>
+            <p id="caption">My family and I at my last high school track meet.</p>
+            <div style="text-align: center;">
+                <button id="prev">← Prev</button>
+                <button id="next">Next →</button>
+            </div>
+            
         </section>
 
         <footer>

@@ -8,11 +8,21 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 header {
   text-align: center;
   padding: 20px 0;
+}
+
+.intro {
+  background: rgba(0, 94, 174, 1);
+  padding: 40px 20px;
+}
+
+.intro h1, .intro h2 {
+  color: white;
 }
 
 nav {
@@ -59,18 +69,37 @@ h1, h2, h3, p {
   text-align: center;
 }
 
-img {
+button {
+  background: rgba(0, 94, 174, 1);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px auto 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.headshot {
   display: block;
   margin: 0 auto 25px;
-  width: 200px;
+  width: 300px;
   height: auto;
+  border: 2px solid rgba(0, 94, 174, 1);
+}
+
+.photo {
+  display: block;
+  margin: 0 auto 25px;
+  width: 350px;
+  height: auto;
+  border: 2px solid rgba(0, 94, 174, 1);
 }
 
 section {
   width: 100%;                     
   padding: 60px 0;               
   border-bottom: 3px solid #ddd;   
-  background: white;            
+  background: inherit;            
   box-sizing: border-box;
   margin: 0;                     
 }
@@ -79,9 +108,33 @@ section > *:first-child {
   margin-top: 0; 
 }
 
+section:last-of-type { 
+  margin-bottom: 0; 
+  border-bottom: none;
+}
+
 footer {
   background: rgba(0, 94, 174, 1);
   color: white;
   text-align: center;
   padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.fade {
+  animation: fadeIn 0.4s ease;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  width: fit-content;
+  margin: 0 auto;
 }
