@@ -1,10 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
 const photo = document.getElementById("photo");
 const caption = document.getElementById("caption");
+
+//Store photos and captions in arrays for easy access
 const photos = ["family1.jpeg", "family2.jpeg", "family3.jpeg"];
 const captions = ["My family and I at my last high school track meet.", "My St. Bernard, Layla, and I.", 'My best friend and I "fighting" over a card game.'];
 let i = 0;
 
+//Change photo and caption based on the direction (previous or next) + fade in
 function change(direction) {
   i = (i + direction + photos.length) % photos.length;
   photo.src = photos[i];

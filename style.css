@@ -124,6 +124,7 @@ footer {
   width: 100%;
 }
 
+/* Add fade-in animation to gallery */
 .fade {
   animation: fadeIn 0.4s ease;
 }
@@ -137,4 +138,83 @@ section ul {
   padding-left: 20px;
   width: fit-content;
   margin: 0 auto;
+}
+
+/* Tablet and mobile styles */
+@media (max-width: 768px) {
+
+  body {
+  line-height: 1.75;
+  }
+
+  h1 { 
+    font-size: 1.5rem; 
+  }
+
+  h2 { 
+    font-size: 1.25rem; 
+  }
+
+  h3 { 
+    font-size: 1.1rem; 
+  }
+  
+  nav li {
+    margin: 10px 0;
+  }
+  
+  .intro, section {
+    padding: 20px 10px;
+  }
+  
+  .headshot, .photo {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  header, .intro h1, .intro h2, h1, h2, h3, p {
+    padding: 0 10px;
+  }
+
+  footer {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  body {
+  padding-top: 55px;
+}
+
+  nav {
+    height: 55px;
+  }
+
+  nav li {
+    margin: 8px 0;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .intro, section {
+    padding: 15px 5px;
+  }
+  
+  .headshot, .photo {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .intro h1, .intro h2, h1, h2, h3, p {
+    padding: 0 5px;
+  }
+
+  footer {
+    padding: 10px;
+    font-size: 14px;
+  }
 }
